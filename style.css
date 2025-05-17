@@ -182,22 +182,19 @@ option {
     position: fixed;
 }
 
-/* PORTFOLIO */
 
 
-
-
-
-    body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    color: #333;
-    background-color: #f5f5f5;
+/*PORTFOLIO*/
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 20px;
+	color: #333;
+	background-color: #f5f5f5;
 }
 
-.container {
+.portfolio {
     max-width: 800px;
     margin: 0 auto;
     background-color: white;
@@ -227,16 +224,6 @@ h1 {
     border-radius: 8px;
 }
 
-.image-placeholder {
-    width: 150px;
-    height: 150px;
-    background-image: url("harms.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 50%;
-    flex-shrink: 0;
-}
-
 .details {
     flex-grow: 1;
 }
@@ -253,29 +240,30 @@ h2 {
 }
 
 
-/*PORTFOLIO*/
-	.card{
-			width: 800px auto;
-			height: 300px;
-			padding: 80px;
-			display: inline-block;
-			flex-wrap: wrap-reverse;
-			flex-direction: row;
-			background-color: whitesmoke;
-			margin-bottom: 10%;
-		}
+/*PROJECTS*/
+.card{
+	max-width: 800px;
+	height: 300px;
+	padding: 20px;
+	display: block;
+	flex-direction: row;
+	background-color: whitesmoke;
+	margin: 0 auto;
 
-		.projects{
-			margin-top: 5%;
-			justify-content: center;
-			width: 100%;
-		    margin: 0 auto;
-		    gap: 20px;
-		    justify-content: center;
-		}
+}
 
-		.projects button{
-			margin: 0 auto;
-			background-color: #2c3e50;
-		}
-		
+.projects h2{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.projects{
+	justify-content: center;
+    margin: 0 auto;
+
+}
+
+.projects button{
+	margin: 0 auto;
+	background-color: #2c3e50;
+}
