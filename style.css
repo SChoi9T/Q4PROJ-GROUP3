@@ -242,7 +242,7 @@ h2 {
 	height: 300px;
 	padding: 20px;
 	flex-direction: row;
-	background-color: whitesmoke;
+	background-color: #DFD0B8;
 	display: flex;
 	margin: 0 auto;
 
@@ -256,7 +256,7 @@ h2 {
 
 .projects{
 	justify-content: center;
-    margin: 0 auto;
+    margin: 5% auto;
 
 }
 
