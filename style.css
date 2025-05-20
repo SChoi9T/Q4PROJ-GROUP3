@@ -228,8 +228,14 @@ hr {
   margin-bottom: 10px;
 }
 
-.footer-column p .footer-column a {
+.footer-column a {
   color: #ccc;
+  margin: 4px 0;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #aaa;
   margin: 4px 0;
   text-decoration: none;
 }
