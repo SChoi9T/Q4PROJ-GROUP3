@@ -228,6 +228,11 @@ hr {
   margin-bottom: 10px;
 }
 
+.footer-column p {
+  color: #ccc;
+  margin: 4px 0;
+}
+
 .footer-column a {
   color: #ccc;
   margin: 4px 0;
