@@ -171,26 +171,6 @@ hr {
             margin: 0 auto;
         }
 
-        .projects #card1-harmony {
-            background-image: url("Q1-harms.png");
-            background-size: 800px 500px;
-        }
-
-        .projects #card2-harmony {
-            background-image: url("Q2-harms.png");
-            background-size: 800px 500px;
-        }
-
-        .projects #card3-harmony {
-            background-image: url("Q3-harms.png");
-            background-size: 800px 500px;
-        }
-
-        .projects #card4-harmony {
-            background-image: url("Q4-harms.png");
-            background-size: 800px 500px;
-        }
-
         .projects h2 {
             text-align: center;
             margin-top: 3%;
