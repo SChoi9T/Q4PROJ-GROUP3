@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #f5f5f5;
+    background-color: #f5f5f5;
     font-family: "Montserrat", serif;
 }
 
@@ -171,7 +171,8 @@ hr {
             margin: 0 auto;
         }
 
-	.projects #card1-sang {
+/*SANG*/
+         .projects #card1-sang {
             background-image: url("Q1-sang.png");
             background-size: 800px 500px;
         }
@@ -188,6 +189,28 @@ hr {
 
         .projects #card4-sang {
             background-image: url("Q4-sang.png");
+            background-size: 800px 500px;
+        }
+
+/*YAO*/
+
+         .projects #card1-sang {
+            background-image: url("Q1-harms.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card2-sang {
+            background-image: url("Q2-harms.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card3-sang {
+            background-image: url("Q3-harms.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card4-sang {
+            background-image: url("Q4-harms.png");
             background-size: 800px 500px;
         }
 
@@ -256,14 +279,21 @@ hr {
 
 
 /* FEEDBACK FORM + RATE US */
-.rating{
+#rating{
     margin: 0 auto;
-    padding: 5%;
     background-color: #3C5B6F;
 }
-.feedback form{
-    width: 800px;
+
+#rating .card{
+    text-align: center;
+}
+
+#feedback form{
+    max-width: 800px;
     margin: 0 auto;
-    column-gap: 100px;
     padding: 5%;
+}
+
+#rating h1{
+    color: whitesmoke;
 }
