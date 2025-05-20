@@ -253,3 +253,17 @@ hr {
   font-size: 14px;
   color: #aaa;
 }
+
+
+/* FEEDBACK FORM + RATE US */
+.rating{
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #3C5B6F;
+}
+.feedback form{
+    width: 800px;
+    margin: 0 auto;
+    column-gap: 100px;
+    padding: 5%;
+}
