@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link rel="icon" type="image/x-icon" href="icon.png">
+
+  <!-- BOOTSTRAP 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CLOUDFLARE FOR ANIMATION -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <title>Group 3's Online Portfolio - Home</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-sm">
+            <!-- LOGO -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Online Portfolio logo">
+            </a>
+
+        <!-- TOGGLER -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAVBAR ITEMS -->
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">What's Next</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rate Us</a>
+                    </li>
+                </ul>
+
+            <!-- SEARCH-FORM -->
+            <form class="d-flex" action="https://www.google.com/search" method="get" target="_blank">
+                <button class="btn btn-primary" type="submit">Get in Touch</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!-- Portfolio -->
+      <div class="portfolio">
+       
+        <div class="header">
+            <h1>My Online Portfolio</h1>
+            <p>This portfolio shows my projects for each quarter for the school year 2024-2025. This covers the following programming languages: HTML, CSS, Bootstrap, and JavaScript. You may click on the navigation links to check my projects.</p>
+        </div>
+
+        <!-- Profile section -->
+        <div class="profile-box">
+            <!-- Image placeholder -->
+            <div class="image-placeholder" style=" width: 150px; height: 0 auto; background-image: url(leona.jpg);background-repeat: no-repeat; background-size: 100%; border-radius: 50%; flex-shrink: 0;">
+            </div>
+
+            <div class="details">
+                <h2>Leona Abeleda</h2>
+                <p><span class="label">Interests/Hobbies:</span> volleyball and cooking</p>
+                <p><span class="label">Ambition:</span> travel</p>
+            </div>
+        </div>
+
+
+     <br />
+     <br />
+     <br />
+ </div>
+
+
+       <div class="projects">
+
+    <h2 style="text-align: center"><b>Quarter Projects</b></h2>
+
+    <!-- QUARTER PROJECTS -->
+
+    <!-- QUARTER 1 -->
+      <div class="card" id="card1" style="background-image: url(Q1abeleda.png); background-size: 800px 500px;">
+        <div class="card-body">
+        <a href="https://labeleda-9t.github.io/Q1_Proj/" target="_blank"><button type="button" class="btn btn-dark">Q1: HTML basics</button></a>
+      </div>
+    </div>
+
+    <!-- QUARTER 2 -->
+      <div class="card" id="card2">
+        <div class="card-body" style="background-image: url(Q2abeleda.png); background-size: 800px 500px;">
+        <a href="https://labeleda-9t.github.io/Q2PROJ/" target="_blank"><button type="button" class="btn btn-dark">Q2: Bootstrap Framework</button></a>
+      </div>
+    </div>
+
+    <!-- QUARTER 3 -->
+      <div class="card" id="card3" style="background-image: url(Q3abeleda.png); background-size: 800px 500px;">
+        <div class="card-body">
+        <a href="https://labeleda-9t.github.io/Q3PROJ/" target="_blank"><button type="button" class="btn btn-dark">Q3: Javascript Functions</button></a>
+      </div>
+    </div>
+
+    <!-- QUARTER 4 -->
+      <div class="card" id="card4" style="background-image: url(Q4.png); background-size: 800px 500px;">
+        <div class="card-body">
+        <a href="#" target="_blank"><button type="button" class="btn btn-dark">Q4: Javascript Conditionals</button></a>
+      </div>
+    </div>
+</div>
+
+        <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <h4>&#169; AY 2024-2025 | Group 3 | 9-Topaz</h4>
+        </div>
+    </footer>
+
+    <!-- JS & BOOTSTRAP -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
