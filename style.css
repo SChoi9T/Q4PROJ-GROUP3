@@ -145,7 +145,7 @@ hr {
             border-radius: 8px;
         }
 
-        .image-placeholder-harmony {
+        .image-placeholder {
             width: 150px;
             height: 150px;
             flex-shrink: 0;
