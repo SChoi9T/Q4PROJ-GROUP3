@@ -171,6 +171,26 @@ hr {
             margin: 0 auto;
         }
 
+	.projects #card1-sang {
+            background-image: url("Q1-sang.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card2-sang {
+            background-image: url("Q2-sang.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card3-sang {
+            background-image: url("Q3-sang.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card4-sang {
+            background-image: url("Q4-sang.png");
+            background-size: 800px 500px;
+        }
+
         .projects h2 {
             text-align: center;
             margin-top: 3%;
