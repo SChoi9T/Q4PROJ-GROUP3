@@ -228,8 +228,7 @@ hr {
   margin-bottom: 10px;
 }
 
-.footer-column p,
-.footer-column a {
+.footer-column p .footer-column a {
   color: #ccc;
   margin: 4px 0;
   text-decoration: none;
