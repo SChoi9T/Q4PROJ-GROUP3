@@ -399,7 +399,7 @@ hr {
 
 
 /* FEEDBACK FORM */
-#rating{     
+#rating {     
     margin: 0 auto;                
  }
 
@@ -411,20 +411,20 @@ hr {
     border-radius: 10px;
 }
 
- h1{
+ #rating h1 {
     color: #3C5B6F;
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
 }
 
-#feedback form{
+#feedback form {
     max-width: 900px;
     margin: 0 auto;
 }
 
 
-#contents{
+#contents {
     background-color: rgba(245, 245, 245, .9);
     padding: 10px;
     border: darkgray 2px solid;
