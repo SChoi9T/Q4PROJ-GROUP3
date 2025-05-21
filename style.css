@@ -188,114 +188,114 @@ hr {
             bottom: 0;
         }
 
-/*CHOI*/
-         .projects #card1-sang {
-            background-image: url("Q1-sang.png");
-            background-size: 800px 500px;
-        }
+    /*CHOI*/
+            .projects #card1-sang {
+                background-image: url("Q1-sang.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card2-sang {
-            background-image: url("Q2-sang.png");
-            background-size: 800px 500px;
-        }
+            .projects #card2-sang {
+                background-image: url("Q2-sang.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card3-sang {
-            background-image: url("Q3-sang.png");
-            background-size: 800px 500px;
-        }
+            .projects #card3-sang {
+                background-image: url("Q3-sang.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card4-sang {
-            background-image: url("Q4-sang.png");
-            background-size: 800px 500px;
-        }
+            .projects #card4-sang {
+                background-image: url("Q4-sang.png");
+                background-size: 800px 500px;
+            }
 
-/*YAO*/
+    /*YAO*/
 
-         .projects #card1-harmony {
-            background-image: url("Q1-harms.png");
-            background-size: 800px 500px;
-        }
+            .projects #card1-harmony {
+                background-image: url("Q1-harms.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card2-harmony {
-            background-image: url("Q2-harms.png");
-            background-size: 800px 500px;
-        }
+            .projects #card2-harmony {
+                background-image: url("Q2-harms.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card3-harmony {
-            background-image: url("Q3-harms.png");
-            background-size: 800px 500px;
-        }
+            .projects #card3-harmony {
+                background-image: url("Q3-harms.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card4-harmony {
-            background-image: url("Q4-harms.png");
-            background-size: 800px 500px;
-        }
+            .projects #card4-harmony {
+                background-image: url("Q4-harms.png");
+                background-size: 800px 500px;
+            }
 
-/*COTIOCO*/
+    /*COTIOCO*/
 
-        .projects #card1-sean {
-            background-image: url("Q1-Sean-project.png");
-            background-size: 800px 500px;
-        }
+            .projects #card1-sean {
+                background-image: url("Q1-Sean-project.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card2-sean {
-            background-image: url("Q2-Sean-project.png");
-            background-size: 800px 500px;
-        }
+            .projects #card2-sean {
+                background-image: url("Q2-Sean-project.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card3-sean {
-            background-image: url("Q3-Sean-project.png");
-            background-size: 800px 500px;
-        }
+            .projects #card3-sean {
+                background-image: url("Q3-Sean-project.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card4-sean {
-            background-image: url("Q4-Sean-project.png");
-            background-size: 800px 500px;
-        }
+            .projects #card4-sean {
+                background-image: url("Q4-Sean-project.png");
+                background-size: 800px 500px;
+            }
 
-/*ABELEDA*/
+    /*ABELEDA*/
 
-        .projects #card1-leona {
-            background-image: url("Q1abeleda.png");
-            background-size: 800px 500px;
-        }
+            .projects #card1-leona {
+                background-image: url("Q1abeleda.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card2-leona {
-            background-image: url("Q2abeleda.png");
-            background-size: 800px 500px;
-        }
+            .projects #card2-leona {
+                background-image: url("Q2abeleda.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card3-leona {
-            background-image: url("Q3abeleda.png");
-            background-size: 800px 500px;
-        }
+            .projects #card3-leona {
+                background-image: url("Q3abeleda.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card4-leona {
-            background-image: url("Q4abeleda.png");
-            background-size: 800px 500px;
-        }
+            .projects #card4-leona {
+                background-image: url("Q4abeleda.png");
+                background-size: 800px 500px;
+            }
 
-/*ONG*/
+    /*ONG*/
 
-        .projects #card1-chilli {
-            background-image: url("Q1ong.png");
-            background-size: 800px 500px;
-        }
+            .projects #card1-chilli {
+                background-image: url("Q1ong.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card2-chilli {
-            background-image: url("Q2ong.png");
-            background-size: 800px 500px;
-        }
+            .projects #card2-chilli {
+                background-image: url("Q2ong.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card3-chilli {
-            background-image: url("Q3ong.png");
-            background-size: 800px 500px;
-        }
+            .projects #card3-chilli {
+                background-image: url("Q3ong.png");
+                background-size: 800px 500px;
+            }
 
-        .projects #card4-chilli {
-            background-image: url("Q4ong.png");
-            background-size: 800px 500px;
-        }
+            .projects #card4-chilli {
+                background-image: url("Q4ong.png");
+                background-size: 800px 500px;
+            }
 
 /* WHATS NEXT */
         .section-title {
@@ -315,32 +315,26 @@ hr {
             border-radius: 10px;
         }
 
-        #rating h1 {
-            color: #3C5B6F;
-            font-weight: bold;
-            text-align: center;
-            margin: 0 auto;
-        }
-
-        #feedback form {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-
-        #contents {
+        #feedback {
             background-color: rgba(245, 245, 245, .9);
             padding: 10px;
             border: darkgray 2px solid;
             margin-bottom: 3%;
             }
 
-        #feedback h1{
-            color: #3C5B6F;
-            font-weight: bold;
+        #feedback form {
+            max-width: 900px;
+            margin: 0 auto;
         }
 
-        body.rate-html{
+        #feedback h1 {
+            color: #3C5B6F;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .rate-html {
             background-image: url("rate.png");
             background-repeat: no-repeat;
             background-size: cover;
