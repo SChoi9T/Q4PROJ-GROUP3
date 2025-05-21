@@ -308,6 +308,50 @@ hr {
             background-size: 800px 500px;
         }
 
+/* FEEDBACK FORM */
+        #rating {     
+            margin: 0 auto;                
+         }
+        
+        
+        #rating .card {
+            padding: 15px;
+            min-height: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        
+         #rating h1 {
+            color: #3C5B6F;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        #feedback form {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        
+        #contents {
+            background-color: rgba(245, 245, 245, .9);
+            padding: 10px;
+            border: darkgray 2px solid;
+            margin-bottom: 3%;
+            }
+        
+        #feedback h1{
+            color: #3C5B6F;
+            font-weight: bold;
+        }
+        
+        body.rate-html{
+            background-image: url("rate.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
 .footer {
   background-color: #213555;
   color: #fff;
@@ -352,48 +396,4 @@ hr {
   padding-top: 15px;
   font-size: 14px;
   color: #aaa;
-}
-
-/* FEEDBACK FORM */
-#rating {     
-    margin: 0 auto;                
- }
-
-
-#rating .card {
-    padding: 15px;
-    min-height: 200px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 10px;
-}
-
- #rating h1 {
-    color: #3C5B6F;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto;
-}
-
-#feedback form {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-
-#contents {
-    background-color: rgba(245, 245, 245, .9);
-    padding: 10px;
-    border: darkgray 2px solid;
-    margin-bottom: 3%;
-    }
-
-#feedback h1{
-    color: #3C5B6F;
-    font-weight: bold;
-}
-
-body.rate-html{
-    background-image: url("rate.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
