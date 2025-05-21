@@ -171,7 +171,24 @@ hr {
             margin: 0 auto;
         }
 
-/*SANG*/
+        .projects h2 {
+            text-align: center;
+            margin-top: 3%;
+        }
+
+        .projects {
+            justify-content: center;
+            margin: 5% auto;
+
+        }
+
+        .projects button {
+            margin: 0 auto;
+            width: 100%;
+            bottom: 0;
+        }
+
+/*CHOI*/
          .projects #card1-sang {
             background-image: url("Q1-sang.png");
             background-size: 800px 500px;
@@ -194,41 +211,90 @@ hr {
 
 /*YAO*/
 
-         .projects #card1-sang {
+         .projects #card1-harmony {
             background-image: url("Q1-harms.png");
             background-size: 800px 500px;
         }
 
-        .projects #card2-sang {
+        .projects #card2-harmony {
             background-image: url("Q2-harms.png");
             background-size: 800px 500px;
         }
 
-        .projects #card3-sang {
+        .projects #card3-harmony {
             background-image: url("Q3-harms.png");
             background-size: 800px 500px;
         }
 
-        .projects #card4-sang {
+        .projects #card4-harmony {
             background-image: url("Q4-harms.png");
             background-size: 800px 500px;
         }
 
-        .projects h2 {
-            text-align: center;
-            margin-top: 3%;
+/*COTIOCO*/
+
+        .projects #card1-sean {
+            background-image: url("Q1-Sean-project.png");
+            background-size: 800px 500px;
         }
 
-        .projects {
-            justify-content: center;
-            margin: 5% auto;
-
+        .projects #card2-sean {
+            background-image: url("Q2-Sean-project.png");
+            background-size: 800px 500px;
         }
 
-        .projects button {
-            margin: 0 auto;
-            width: 100%;
-            bottom: 0;
+        .projects #card3-sean {
+            background-image: url("Q3-Sean-project.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card4-sean {
+            background-image: url("Q4-Sean-project.png");
+            background-size: 800px 500px;
+        }
+
+/*ABELEDA*/
+
+        .projects #card1-leona {
+            background-image: url("Q1abeleda.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card2-leona {
+            background-image: url("Q2abeleda.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card3-leona {
+            background-image: url("Q3abeleda.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card4-leona {
+            background-image: url("Q4abeleda.png");
+            background-size: 800px 500px;
+        }
+
+/*ONG*/
+
+        .projects #card1-chilli {
+            background-image: url("Q1ong.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card2-chilli {
+            background-image: url("Q2ong.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card3-chilli {
+            background-image: url("Q3ong.png");
+            background-size: 800px 500px;
+        }
+
+        .projects #card4-chilli {
+            background-image: url("Q4ong.png");
+            background-size: 800px 500px;
         }
 
 .footer {
