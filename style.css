@@ -332,22 +332,46 @@ hr {
         }
 
 
-/* FEEDBACK FORM + RATE US */
-#rating{
-    margin: 0 auto;
-    background-color: #3C5B6F;
+/* FEEDBACK FORM */
+#rating{     
+    margin: 0 auto;                
+ }
+
+
+#rating .card {
+    padding: 15px;
+    min-height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
 }
 
-#rating .card{
+ h1{
+    color: #3C5B6F;
+    font-weight: bold;
     text-align: center;
+    margin: 0 auto;
 }
 
 #feedback form{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 5%;
 }
 
-#rating h1{
-    color: whitesmoke;
+
+#contents{
+    background-color: rgba(245, 245, 245, .9);
+    padding: 10px;
+    border: darkgray 2px solid;
+    margin-bottom: 3%;
+    }
+
+#feedback h1{
+    color: #3C5B6F;
+    font-weight: bold;
+}
+
+body.rate-html{
+    background-image: url("rate.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
