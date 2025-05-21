@@ -1,6 +1,6 @@
 // ABELEDA JS
 
-function rating$leona(){
+function ratingleona(){
 	var score = document.getElementById('rating-leona').value;
 
 	switch (score){
@@ -32,7 +32,7 @@ function rating$leona(){
 
 // CHOI JS
 
-function rating$choi(){
+function ratingchoi(){
 	var score = document.getElementById('rating-choi').value;
 
 	switch (score){
@@ -65,7 +65,7 @@ function rating$choi(){
 
 // COTIOCO JS
 
-function rating$sean(){
+function ratingsean(){
 	var score = document.getElementById('rating-sean').value;
 
 	switch (score){
@@ -98,7 +98,7 @@ function rating$sean(){
 
 // ONG JS
 
-function rating$ong(){
+function ratingong(){
 	var score = document.getElementById('rating-ong').value;
 
 	switch (score){
@@ -130,7 +130,7 @@ function rating$ong(){
 
 // YAO JS
 
-function rating$yao(){
+function ratingyao(){
 	var score = document.getElementById('rating-yao').value;
 
 	switch (score){
