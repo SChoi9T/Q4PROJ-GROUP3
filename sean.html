@@ -25,12 +25,37 @@
 </head>
 <body>
 
-    <!-- NAVIGATION BAR -->
+    <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Group 3's Online Portfolio - Choi's Page</title>
+
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
+	<!-- BOOTSTRAP 5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- CLOUDFLARE FOR ANIMATION -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+	 <!-- STYLE; Everyone -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- NAVIGATION BAR; Choi -->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-sm">
             <!-- LOGO -->
             <a class="navbar-brand" href="index.html">
                 <img src="logo.png" alt="Online Portfolio logo">
+                <span class="ms-2 fw-bold">Group √9</span>
             </a>
 
         <!-- TOGGLER -->
@@ -55,82 +80,75 @@
                     </li>
                 </ul>
 
-
-            <!-- SEARCH-FORM -->
-            <form class="d-flex" action="https://www.google.com/search" method="get" target="_blank">
-                <button class="btn btn-primary" type="submit">Get in Touch</button>
+            <!-- SEARCH FORM -->
+                <form class="d-flex" action="https://www.google.com/search" method="get" target="_blank">
+                    <input class="form-control me-2" type="text" name="q" placeholder="Search..." required>
+                    <button class="btn btn-primary" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 
-<!-- Portfolio -->
-	    <div class="portfolio">
-       
-        <div class="header">
-            <h1>My Online Portfolio</h1>
-            <p>In my portfolio, you will see my projects from each quarter for the 2024-2025 school year. These coding topics are: HTML, CSS, Bootstrap, and javascript. Click on the buttons to redirect to the pages.</p>
-        </div>
+<!-- Portfolio; Cotioco -->
+	<div class="container portfolio mt-5 mb-5">
+	        <div class="header">
+	        	<h1>My Online Portfolio</h1>
+	        	<p>In my portfolio, you will see my projects from each quarter for the 2024-2025 school year. These coding topics are: HTML, CSS, Bootstrap, and javascript. Click on the buttons to redirect to the pages.</p>
+	        </div>
 
         <!-- Profile section -->
-        <div class="profile-box">
-            <!-- Image placeholder -->
-            <div class="image-placeholder" style=" width: 150px; height: 0 auto; background-image: url(sean.png);background-repeat: no-repeat; background-size: 100%; border-radius: 50%; flex-shrink: 0;">
-            </div>
+		<div class="profile-box">
+			<!-- Pfp -->
+			<img src="sean.png" alt="Profile Picture" class="img-fluid rounded-circle image-placeholder">
 
-            <div class="details">
-                <h2>Sean Cotioco (SMGC) </h2>
-                <p><span class="label">Birthday:</span> 2010-05-16</p>
-                <p><span class="label">School:</span> Xavier-$!&!-OB montessori <b>BEST</b></p>
-                <p><span class="label">Favorite Song:</span> Yellow</p>
-                <p><span class="label">Favorite Game:</span> Minecraft, Roblox, genshin, ETC</p>
-                <p><span class="label">Favorite Artist:</span> Coldplay, onedirection, one republic, shawn mendez, GOTHAM CHESS, Bruno mars, MORE</p>
-                <p><span class="label">Interests/Hobbies:</span> Gaming, PC, Cars, Game creation studios like engines, i prefer to watch and finish the one piece.</p>
-                <p><span class="label">Ambition:</span>Strike the most successful business, get a nissan GTR </p>
-            </div>
-        </div>
-
-
-     <br />
-     <br />
-     <br />
- </div>
-
+	        	<div class="details">
+		                <h2>Sean Cotioco (SMGC) </h2>
+		                <p><span class="label">Birthday:</span> 2010-05-16</p>
+		                <p><span class="label">School:</span> Xavier-$!&!-OB montessori <b>BEST</b></p>
+		                <p><span class="label">Favorite Song:</span> Yellow</p>
+		                <p><span class="label">Favorite Game:</span> Minecraft, Roblox, genshin, ETC</p>
+		                <p><span class="label">Favorite Artist:</span> Coldplay, onedirection, one republic, shawn mendez, GOTHAM CHESS, Bruno mars, MORE</p>
+		                <p><span class="label">Interests/Hobbies:</span> Gaming, PC, Cars, Game creation studios like engines, i prefer to watch and finish the one piece.</p>
+		                <p><span class="label">Ambition:</span>Strike the most successful business, get a nissan GTR </p>
+	            	</div>
+        	</div>
+		<br><br>
+	</div>
 
        <div class="projects">
 
 		<h2 style="text-align: center"><b>Quarter Projects</b></h2>
 
-		<!-- QUARTER PROJECTS -->
+		<!-- QUARTER PROJECTS; Cotioco -->
 
 		<!-- QUARTER 1 -->
-			<div class="card" id="card1" style="background-image: url(Q1-Sean-project.png); background-size: 800px 500px;">
-				<div class="card-body">
+		<div class="card" id="card1-sean">
+			<div class="card-body">
 				<a href="https://seanmc0cc.github.io/Store-project/" target="_blank"><button type="button" class="btn btn-dark">Q1: HTML basics</button></a>
 			</div>
 		</div>
 
 		<!-- QUARTER 2 -->
-			<div class="card" id="card2">
-				<div class="card-body" style="background-image: url(Q2-Sean-project.png); background-size: 800px 500px;">
+		<div class="card" id="card2-sean">
+			<div class="card-body">
 				<a href="https://seanmc0cc.github.io/Quarter-2-of-school-things-the-project/foodcore.html" target="_blank"><button type="button" class="btn btn-dark">Q2: Bootstrap Framework</button></a>
 			</div>
 		</div>
 
 		<!-- QUARTER 3 -->
-			<div class="card" id="card3" style="background-image: url(Q3-Sean-project.png); background-size: 800px 500px;">
-				<div class="card-body">
+		<div class="card" id="card3-sean">
+			<div class="card-body">
 				<a href="https://averageprogrammer15.github.io/Q3-Project-Daradal-Cotioco/" target="_blank"><button type="button" class="btn btn-dark">Q3: Javascript Functions</button></a>
 			</div>
 		</div>
 
 		<!-- QUARTER 4 -->
-			<div class="card" id="card4" style="background-image: url(Q4.png); background-size: 800px 500px;">
-				<div class="card-body">
+		<div class="card" id="card4-sean">
+			<div class="card-body">
 				<a href="#" target="_blank"><button type="button" class="btn btn-dark">Q4: Javascript Conditionals</button></a>
 			</div>
 		</div>
-</div>
+	</div>
 
 		    <!-- FOOTER -->
 <footer class="footer">
