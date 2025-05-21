@@ -159,3 +159,40 @@ function ratingyao(){
 
 	}
 }
+
+// RATING JS
+function rating(){
+    var sang = document.getElementById('rating-choi').value;
+    var sean = document.getElementById('rating-sean').value;
+    var leona = document.getElementById('rating-leona').value;
+    var chilli = document.getElementById('rating-ong').value;
+    var harmony = document.getElementById('rating-yao').value;
+
+    let total = parseInt(sang) + parseInt(sean) + parseInt(leona) + parseInt(chilli) + parseInt(harmony);
+    let average = total / 5;
+    let score = Math.round(average);
+
+    let message = "";
+
+    switch (score) {
+        case 1:
+            message = "1/5, Poor 😔";
+            break;
+        case 2:
+            message = "2/5, Needs Improvement ☹️";
+            break;
+        case 3:
+            message = "3/5, Satisfactory 😐";
+            break;
+        case 4:
+            message = "4/5, Above Satisfactory 🙂";
+            break;
+        case 5:
+            message = "5/5, Excellent 🤩";
+            break;
+        default:
+            message = "0/5, No Rating Given 😭";
+    }
+
+    document.getElementById('average').innerHTML = `Overall Rating Average: ${message}`;
+}
