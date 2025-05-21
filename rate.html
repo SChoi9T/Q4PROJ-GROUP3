@@ -21,7 +21,8 @@
      <!-- STYLE; Everyone -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+
+<body class="rate-html">
     <!-- NAVIGATION BAR; Choi -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-sm">
@@ -62,104 +63,14 @@
         </div>
     </nav>
 
-<!--  RATING AND FEEDBACK FORM; YAO -->
-  <div class="container my-5" id="rating">
-    <h1 class="mb-4">Rate our members</h1>
+    <!-- FEEDBACK FORM -->
 
-    <div class="row g-3">
-      <!-- LEONA ABELEDA -->
-      <div class="col-md-2">
-        <div class="card">
-          <h5>Abeleda, Leona 🦁</h5>
-          <select id="rating-leona" class="form-control" onchange="rating$leona()">
-            <option value="">Select</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <br>
-          <p id="rate-score-leona">Rate us!</p>
-        </div>
-      </div>
-
-      <!-- SANG CHOI -->
-      <div class="col-md-2">
-        <div class="card">
-          <h5>Choi, Sang-heon 🎤</h5>
-          <select id="rating-choi" class="form-control" onchange="rating$choi()">
-            <option value="">Select</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <br>
-          <p id="rate-score-choi">Rate us!</p>
-        </div>
-      </div>
-
-      <!-- SEAN COTIOCO -->
-      <div class="col-md-2">
-        <div class="card">
-          <h5>Cotioco, Sean 🐈‍⬛</h5>
-          <select id="rating-sean" class="form-control" onchange="rating$sean()">
-            <option value="">Select</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <br>
-          <p id="rate-score-sean">Rate us!</p>
-        </div>
-      </div>
-
-      <!-- CHILLI ONG -->
-      <div class="col-md-2">
-        <div class="card">
-          <h5>Ong, Chilli 🌶️</h5>
-          <select id="rating-ong" class="form-control" onchange="rating$ong()">
-            <option value="">Select</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <br>
-          <p id="rate-score-ong">Rate us!</p>
-        </div>
-      </div>
-
-      <!-- HARMONY YAO -->
-      <div class="col-md-2">
-        <div class="card">
-          <h5>Yao, Harmony 🦆</h5>
-          <select id="rating-yao" class="form-control" onchange="rating$yao()">
-            <option value="">Select</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <br>
-          <p id="rate-score-yao">Rate us!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <hr>
-
-  <!-- FEEDBACK FORM -->
+<div class="container mt-5" id="contents">
   <div class="container my-5" id="feedback">
 
-  	<h2>Feedback Form</h2>
+    <h1>Feedback Form</h1>
+    <em><p>Please share your thoughts about our projects, website, and our members! We would love to heaer your <br> honest feedback as it will help us improve our skills and work in the future. Thank you for your input.</p><em>
+    <hr>
     <form>
       <div class="mb-3">
         <label for="fname" class="form-label">First name:</label>
@@ -176,11 +87,107 @@
       <div class="mb-3">
         <label for="message" class="form-label">Feedback:</label>
         <textarea id="message" name="message" rows="5" class="form-control" placeholder="Give us your feedback"></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary" onclick="alert('Thank you for your feedback!')">Submit</button>
+
       </div>
-      <button type="submit" class="btn btn-primary" onclick="alert('Thank you for your feedback!')">Submit</button>
     </form>
   </div>
 
+  <hr />
+
+
+<!--  RATING AND FEEDBACK FORM; YAO -->
+<h1 class="mb-6">Rate our members</h1>
+  <div class="container col-sm-10" id="rating">
+    <div class="row g-2">
+      <!-- LEONA ABELEDA -->
+      <div class="col-md-3">
+        <div class="card">
+          <h5>Abeleda, Leona 🦁</h5>
+          <select id="rating-leona" class="form-control" onchange="rating$leona()">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <br>
+          <p id="rate-score-leona">Rate us!</p>
+        </div>
+      </div>
+
+      <!-- SANG CHOI -->
+      <div class="col-md-3">
+        <div class="card">
+          <h5>Choi, Sang-heon 🎤</h5>
+          <select id="rating-choi" class="form-control" onchange="rating$choi()">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <br>
+          <p id="rate-score-choi">Rate us!</p>
+        </div>
+      </div>
+
+      <!-- SEAN COTIOCO -->
+      <div class="col-md-3">
+        <div class="card">
+          <h5>Cotioco, Sean 🐈‍⬛</h5>
+          <select id="rating-sean" class="form-control" onchange="rating$sean()">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <br>
+          <p id="rate-score-sean">Rate us!</p>
+        </div>
+      </div>
+
+      <!-- CHILLI ONG -->
+      <div class="col-md-3">
+        <div class="card">
+          <h5>Ong, Chilli <br>🌶️</h5>
+          <select id="rating-ong" class="form-control" onchange="rating$ong()">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <br>
+          <p id="rate-score-ong">Rate us!</p>
+        </div>
+      </div>
+
+      <!-- HARMONY YAO -->
+      <div class="col-md-3">
+        <div class="card">
+          <h5>Yao, Harmony 🦆</h5>
+          <select id="rating-yao" class="form-control" onchange="rating$yao()">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <br>
+          <p id="rate-score-yao">Rate us!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- FOOTER; Abeleda -->
     <footer class="footer">
         <div class="footer-container">
